@@ -2,7 +2,7 @@
 Application to create addreess, transfer token, check balance and listining event trasnfer token and give notication too webhook and telegram if any event erc20 tarnsfer
 
 ## Config
-Please check [config/index.js](erc20-wallet-service/blob/master/config/index.js) in that config, can set 
+Please check [config/index.js](config/index.js) in that config, can set 
 - runnin app port
 - api key
 - blockchain network
