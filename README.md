@@ -1,5 +1,5 @@
 # ECC20-WALLET-SERVICE
-Application to create addreess, transfer token, check balance and listining event trasnfer token and give notication too webhook and telegram if any event erc20 tarnsfer
+Application to create address, transfer token, check balance and listing event transfer token and give notification to webhook and telegram if any event erc20 transfer
 
 ## Config
 Please check [config/index.js](config/index.js) in that config, can set 
