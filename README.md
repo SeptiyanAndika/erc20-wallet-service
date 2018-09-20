@@ -11,8 +11,8 @@ Please check [config/index.js](config/index.js) in that config, can set
 - webhook and telegream notification if any event erc20 tarnsfer 
 
 ## API
-Please check doc/rest.http, the api avaailable is
-- create address  (when creating address keystore will save in folder keystore)
+Please check [doc/rest.http](doc/rest.http), the api avaailable is
+- create address  (when creating address keystore will save in folder [keystore](keystore))
 - check balance
 - info token
 - send token
