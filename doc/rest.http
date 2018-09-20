@@ -1,0 +1,37 @@
+### before you start and if you using visual studio code please install
+### https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+### sample payload for create address
+### /address
+POST http://localhost:3000/address
+Content-Type: application/json
+X-Api-Key: 12345678
+###
+
+### sample payload for check balance address
+### /balance/:address
+GET http://localhost:3000/balance/0x39EcFfa17EEbeDA8E1cDc95fe9f4391cC96EBdeC
+Content-Type: application/json
+X-Api-Key: 12345678
+###
+
+
+### sample payload for check token info
+### /token/info
+GET http://localhost:3000/token/info
+Content-Type: application/json
+X-Api-Key: 12345678
+###
+
+### sample payload for send token
+### /address
+POST http://localhost:3000/send
+Content-Type: application/json
+X-Api-Key: 12345678
+
+{
+    "fromAddress":"0x149d6fd7322e9ada3963182528893577d2091c19",
+    "toAddress":"0x2e5ae0fa629ac84be7e25ccef3b13c3e6a5eed1c",
+    "amount":0.5
+}
+###
